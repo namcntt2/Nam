@@ -1,0 +1,29 @@
+.container{
+    padding: 10px;
+    padding-bottom: 100px;
+    width: 50vw;
+    height: 100%;
+    background-image: linear-gradient(0,rgba(230,100,101,.5),rgba(145,152,229,.5)),
+    url(../Bai2/ImageBai2/1.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-size: 16px;
+}
+.minhhoa{
+    width: 400px;
+    height: 250px;
+    border: 1px dashed #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: line-through #ff0000;
+    text-decoration-style: double;
+    color: rgb(80, 255, 85);
+    background-color: rgba(80, 120, 250, .5);
+}
+.container a{
+    text-decoration: none;
+    color: #ff0000;
+}
